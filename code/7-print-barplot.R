@@ -1,11 +1,11 @@
 
 #print barplot
-xx = barplot(raw_median_to_print$TRAFFIC,
+xx = barplot(raw.mean.to.print$TRAFFIC,
              args.legend = list(x = "topleft"),
              col = rainbow(3),
-             legend.text=raw.median.to.print$TRAFFIC,
+             legend.text=raw.mean.to.print$TRAFFIC,
              main="ANNUAL MEANS BETWEEN 2018 FEB AND 2019 JUN",
-             names.arg=raw.median.to.print$METHODOLOGY,
+             names.arg=raw.mean.to.print$METHODOLOGY,
              xlab="Methodology",
              ylab="Volume",
              ylim=c(0,100),

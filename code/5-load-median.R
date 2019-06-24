@@ -5,6 +5,6 @@ cat(c("\014"))
 file.to.Read=".\\resources\\output\\2018-19-medians-of-diffusion-of-software-development-methodologies.csv"
 
 #read file
-raw.median = read.csv(header = FALSE,  file = fil.to.Read)
+raw.mean = read.csv(header = FALSE,  file = file.to.Read)
 #print values
-raw.median
+raw.mean
