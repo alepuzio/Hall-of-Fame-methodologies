@@ -1,12 +1,13 @@
+
 #print barplot
 xx = barplot(raw_median_to_print$TRAFFIC,
              args.legend = list(x = "topleft"),
-             col = rainbow(6),
+             col = rainbow(3),
              legend.text=raw_median_to_print$TRAFFIC,
-             main="ANNUAL MEDIANS BETWEEN MAR 2018 AND FEB 2019",
+             main="ANNUAL MEANS BETWEEN 2018 FEB AND 2019 JUN",
              names.arg=raw_median_to_print$METHODOLOGY,
              xlab="Methodology",
-             ylab="Volume [%]",
+             ylab="Volume",
              ylim=c(0,100),
              width = 1
 )
