@@ -13,6 +13,7 @@ Project in R about the diffusion of software development methodologies using Goo
 
 ## How to code
  - download the project with _git clone_
+ - if the code is yet downloaded, update the project using the command _git pull_
  - run the code
  - read the actual code
  - if you want to create anotehr functionality, open a new branch
