@@ -1,0 +1,8 @@
+---
+title: "R Notebook of Hall of Fame Methodologies"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+---

@@ -9,9 +9,16 @@ raw_median_no_empty_values = raw_median_no_ID[raw_median_no_ID$METHODOLOGY!="",]
 ##I want the NOESTIMATES data
 ##I want only RAD in waterfall methdologies
 ##I want only the most famous Agile methodologies (aka median >70)
-raw_median_to_print = raw_median_no_empty_values[as.vector(raw_median_no_empty_values$TRAFFIC) > 70 |
-                                                   as.vector(raw_median_no_empty_values$TRAFFIC) < 24
-                                                 | raw_median_no_empty_values$METHODOLOGY =="XP",]
+#raw_median_to_print = raw_median_no_empty_values[as.vector(raw_median_no_empty_values$TRAFFIC) > 70 |
+#                                                   as.vector(raw_median_no_empty_values$TRAFFIC) < 24
+#                                                | raw_median_no_empty_values$METHODOLOGY =="XP",]
+
+
+raw_median_to_print = raw_median_no_empty_values[
+  raw_median_no_empty_values$METHODOLOGY == "NOESTIMATES"|
+    raw_median_no_empty_values$METHODOLOGY == "SCRUM"|
+    raw_median_no_empty_values$METHODOLOGY == "KANBAN",]
+
 #control data
 ##class: numeric
 class(raw_median_to_print$TRAFFIC)
