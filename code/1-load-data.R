@@ -4,5 +4,5 @@ cat(c("\014"))
 file.to.read = "D:/workspaceR/prove/hall-of-fame-methodologies/resources/week-search-about-software-development-methodologies.csv"
 raw.week.data = read.table(header = TRUE, sep = ';', file = file.to.read)
 #add ID column to dataframe
-raw-week_data$ID <- seq.int(nrow(raw-week_data))
+raw.week.data$ID <- seq.int(nrow(raw.week.data))
 
