@@ -1,6 +1,6 @@
 
 #print barplot
-xx = barplot(raw.mean.to.print$TRAFFIC,
+xx <- barplot(raw.mean.to.print$TRAFFIC,
              args.legend = list(x = "topleft"),
              col = rainbow(3),
              legend.text = raw.mean.to.print$TRAFFIC,

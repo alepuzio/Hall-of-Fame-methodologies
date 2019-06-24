@@ -14,7 +14,7 @@ attributes(mean.values)
 length(mean.values)
 
 #sort data in ascending direction
-mean.values.ordered = sort(mean.values, decreasing = FALSE)
+mean.values.ordered <- sort(mean.values, decreasing = FALSE)
 #control data
 str(mean.values.ordered)
 ##min 23.5 max 87.5
