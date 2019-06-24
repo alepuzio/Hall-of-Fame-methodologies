@@ -1,22 +1,22 @@
 #create new dataframe with median by columns
-median_values <- apply(raw_week_data_only_number, 2, mean)
+median.values <- apply(raw.week.data.only.number, 2, mean)
 
 #control data of the dataframe
 #ID
 ##numeric
-class(median_values)
+class(median.values)
 ##13
-length(median_values)
+length(median.values)
 ##double
-typeof(median_values)
-attributes(median_values)
+typeof(median.values)
+attributes(median.values)
 #13
-length(median_values)
+length(median.values)
 
 #sort data in ascending direction
-median_values_ordered = sort(median_values, decreasing = FALSE)
+median.values.ordered = sort(median.values, decreasing = FALSE)
 #control data
-str(median_values_ordered)
+str(median.values.ordered)
 ##min 23.5 max 87.5
-summary(median_values_ordered)
+summary(median.values.ordered)
 

@@ -1,25 +1,25 @@
 #change colnames in dataframe
-colnames(raw_median) <- c("METHODOLOGY","TRAFFIC")
+colnames(raw.median) <- c("METHODOLOGY","TRAFFIC")
 #delete ID field
-raw_median_no_ID = raw_median[raw_median$METHODOLOGY!="ID",]
+raw.median.no.ID = raw.median[raw.median$METHODOLOGY!="ID",]
 #delete empty value
-raw_median_no_empty_values = raw_median_no_ID[raw_median_no_ID$METHODOLOGY!="",]
+raw.median.no.empty.values = raw.median.no.ID[raw.median.no.ID$METHODOLOGY!="",]
 
 #delete methodology under the thresold:
 ##I want the NOESTIMATES data
 ##I want only the most famous Agile methodologies (aka SCRUM and KANBAN)
 
 
-raw_median_to_print = raw_median_no_empty_values[
-  raw_median_no_empty_values$METHODOLOGY == "NOESTIMATES"|
-    raw_median_no_empty_values$METHODOLOGY == "SCRUM"|
-    raw_median_no_empty_values$METHODOLOGY == "KANBAN",]
+raw.median.to.print = raw.median.no.empty.values[
+  raw.median.no.empty.values$METHODOLOGY == "NOESTIMATES"|
+    raw.median.no.empty.values$METHODOLOGY == "SCRUM"|
+    raw.median.no.empty.values$METHODOLOGY == "KANBAN",]
 
 #control data
 ##class: numeric
-class(raw_median_to_print$TRAFFIC)
+class(raw.median.to.print$TRAFFIC)
 ##print internal structure
-str(raw_median_to_print$TRAFFIC)
+str(raw.median.to.print$TRAFFIC)
 #order data for better visualization
-sort(raw_median_to_print$TRAFFIC)
-numeric_vector = as.vector(raw_median_to_print$TRAFFIC)
+sort(raw.median.to.print$TRAFFIC)
+numeric.vector = as.vector(raw.median.to.print$TRAFFIC)
