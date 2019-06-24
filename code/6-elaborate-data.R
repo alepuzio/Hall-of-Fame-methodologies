@@ -1,9 +1,9 @@
 #change colnames in dataframe
 colnames(raw.mean) <- c("METHODOLOGY","TRAFFIC")
 #delete ID field
-raw.mean.no.ID <- raw.mean[raw.mean$METHODOLOGY!="ID",]
+raw.mean.no.ID <- raw.mean[raw.mean$METHODOLOGY!="ID", ]
 #delete empty value
-raw.mean.no.empty.values  <-  raw.mean.no.ID[raw.mean.no.ID$METHODOLOGY != "",]
+raw.mean.no.empty.values  <-  raw.mean.no.ID[raw.mean.no.ID$METHODOLOGY != "", ]
 
 #delete methodology under the thresold:
 ##I want the NOESTIMATES data
@@ -11,9 +11,9 @@ raw.mean.no.empty.values  <-  raw.mean.no.ID[raw.mean.no.ID$METHODOLOGY != "",]
 
 
 raw.mean.to.print <- raw.mean.no.empty.values[
-  raw.mean.no.empty.values$METHODOLOGY == "NOESTIMATES"|
-    raw.mean.no.empty.values$METHODOLOGY == "SCRUM"|
-    raw.mean.no.empty.values$METHODOLOGY == "KANBAN",]
+  raw.mean.no.empty.values$METHODOLOGY == "NOESTIMATES" |
+    raw.mean.no.empty.values$METHODOLOGY == "SCRUM" |
+    raw.mean.no.empty.values$METHODOLOGY == "KANBAN", ]
 
 #control data
 ##class: numeric
