@@ -1,6 +1,8 @@
 #save data in hard disk
+file.to.write = ".\\resources\\output\\2018-19-medians-of-diffusion-of-software-development-methodologies.csv"
+
 write.csv(
   median.values.ordered,
-  paste(".\\resources\\output\\2018-19-medians-of-diffusion-of-software-development-methodologies.csv",sep = "")
+  paste(file.to.write, sep = "")
   )
 
