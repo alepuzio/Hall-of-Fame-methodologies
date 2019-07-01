@@ -22,4 +22,4 @@ class(raw.mean.to.print$TRAFFIC)
 str(raw.mean.to.print$TRAFFIC)
 #order data for better visualization
 sort(raw.mean.to.print$TRAFFIC)
-numeric.vector <- as.vector(raw.mean.to.print$TRAFFIC)
+numeric.vector <- round(as.numeric(as.vector(raw.mean.to.print$TRAFFIC)), 2)
