@@ -1,5 +1,7 @@
 #save data in hard disk
-file.to.write <- ".\\output\\2018-19-means-of-diffusion-of-software-development-methodologies.csv"
+#C:/repo-progetti-R/Hall-of-Fame-methodologies/
+#..\\output\\2018-19-means-of-diffusion-of-software-development-methodologies.csv
+file.to.write <- "C:\\repo-progetti-R\\Hall-of-Fame-methodologies\\output\\2018-19-means-of-diffusion-of-software-development-methodologies.csv"
 
 write.csv(
   mean.values.ordered,
