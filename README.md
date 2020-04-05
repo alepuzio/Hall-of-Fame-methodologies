@@ -8,8 +8,8 @@ The article can be found [here](https://www.francoangeli.it/riviste/SchedaRivist
 
 ###Prerequisites
 
-- Installed R at version
-- Installed packages
+- Installed R
+- Installed packages _dplyr_ and _barplot_
 
 ###Installing
 
