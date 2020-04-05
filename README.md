@@ -18,25 +18,32 @@ The article can be found [here](https://www.francoangeli.it/riviste/SchedaRivist
 
 
 ##Running the tests
+
 No test available
 
 ### Break down into to end to end tests
+
 No indications
 
 ### Coding styles sheets
-no indications
+
+No indications
 
 ## Deployment
+
 It's running in the IDE, no package to deploy
 
 ### Built with:
+
 * [RStudio](http://www.rstudio.com) - most famous IDE for R programming language
 * [ViM](http://www.vim.org) - text editor for notes
 
 ## Contributing
+
 Please read the [Contributing.md] for the details about the code of conduct and the process for submitting pull requests.
 
 ## Versioning
+
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
@@ -52,8 +59,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * **PurpleBooth** - to publish an [excellent template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) of README that I used in this project 
-* **Yegor256** - to write an excellent blog about software engineering and this post () about the README file and this for the Open Source projects
-* **ISIPM** - 
+* **Yegor256** - to write the post [Elegant READMEs](https://www.yegor256.com/2019/04/23/elegant-readme.html) about the README file and the [An Open Code Base Is Not Yet an Open Source Project] (https://www.yegor256.com/2018/05/08/open-source-attributes.html) for the Open Source projects
+* **ISIPM (aka Italian Institute of Project Management)** - to allow me to write the article about #NoEstimates in the Italian magazine "Il Project Manager" 
 
 ## How to code
  - download the project with _git clone_
