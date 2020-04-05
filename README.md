@@ -7,11 +7,13 @@ The article can be found [here](https://www.francoangeli.it/riviste/SchedaRivist
 ##Getting started
 
 ###Prerequisites
+
 - Installed R at version
 - Installed packages
 
 ###Installing
-- clone the project with _git-clone_ (or download diretly it)
+
+- Clone the project with _git-clone_ (or download diretly it)
 - In **code** there's the source code, in **resources** directory there are the other kinds of file
 - Run the code
 - Have fun!
@@ -27,7 +29,7 @@ No indications
 
 ### Coding styles sheets
 
-No indications
+Please read the file [CONTRIBUTING.md](http://github.com/alepuzio/Hall-of-Fame-methodologies/CONTRIBUTING.md)
 
 ## Deployment
 
