@@ -62,10 +62,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * **Yegor256** - to write the post [Elegant READMEs](https://www.yegor256.com/2019/04/23/elegant-readme.html) about the README file and the [An Open Code Base Is Not Yet an Open Source Project] (https://www.yegor256.com/2018/05/08/open-source-attributes.html) for the Open Source projects
 * **ISIPM (aka Italian Institute of Project Management)** - to allow me to write the article about #NoEstimates in the Italian magazine "Il Project Manager" 
 
-## How to code
- - download the project with _git clone_
- - if the code is yet downloaded, update the project using the command _git pull_
- - run the code
- - read the actual code
- - if you want to create anotehr functionality, open a new branch
- - Please follow the guidelines in [Google 's R Style Guide](https://google.github.io/styleguide/Rguide.xml) and in [Efficient R Programming](https://csgillespie.github.io/efficientR/3-4-rstudio.html): if you don't follow hese guidelines, when you push your code and you request a _pull request_, I have an excuse to refuse your request
